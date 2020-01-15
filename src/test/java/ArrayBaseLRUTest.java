@@ -1,19 +1,17 @@
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
  * @author toby Zhang
  * @date 2020-01-12 18:41
  * @description
  */
 @Slf4j
-public class LRUBaseArrayTest {
+public class ArrayBaseLRUTest {
 
     @Test
     public void testOffer() throws Exception {
-        LRUBaseArray<Integer> lru = new LRUBaseArray<Integer>(3);
+        ArrayBaseLRU<Integer> lru = new ArrayBaseLRU<Integer>(3);
         lru.offer(1);
         log.info(lru.toString());
         lru.offer(2);
@@ -36,7 +34,7 @@ public class LRUBaseArrayTest {
 
     @Test
     public void testOfferIfCacheKeyExist() throws Exception {
-        LRUBaseArray<Integer> lru = new LRUBaseArray<Integer>(3);
+        ArrayBaseLRU<Integer> lru = new ArrayBaseLRU<Integer>(3);
         lru.offer(1);
         log.info(lru.toString());
         lru.offer(2);

@@ -9,7 +9,7 @@ import java.util.Map;
  * @date 2020-01-12 16:42
  * @description
  */
-public class LRUBaseArray<T> {
+public class ArrayBaseLRU<T> {
 
     /**
      * 缓存数据的数组
@@ -35,7 +35,7 @@ public class LRUBaseArray<T> {
      *
      * @param capacity
      */
-    public LRUBaseArray(int capacity) {
+    public ArrayBaseLRU(int capacity) {
         this.capacity = capacity;
         value = (T[]) new Object[capacity];
         holder = new HashMap<T, Integer>(capacity);
