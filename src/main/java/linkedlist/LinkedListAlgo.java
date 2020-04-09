@@ -1,3 +1,7 @@
+package linkedlist;
+
+import common.Node;
+
 /**
  *  1) 单链表反转
  *  2) 链表中环的检测

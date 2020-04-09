@@ -1,3 +1,5 @@
+package linkedlist;
+
 /**
  * 单链表的 插入，查找，删除 操作
  * @author toby Zhang

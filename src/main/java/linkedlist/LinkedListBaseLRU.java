@@ -1,3 +1,5 @@
+package linkedlist;
+
 /**
  * 基于单链表的LRU 缓存的实现
  * @author toby Zhang
