@@ -44,10 +44,10 @@ public class ArrayBaseLRU<T> {
     }
 
     /**
-     * 模拟访问某个缓存
+     * 缓存object
      * @param object
      */
-    public void offer(T object) {
+    public void set(T object) {
         if (object == null) {
             throw new IllegalArgumentException("该缓存容器不支持null");
         }
@@ -61,7 +61,6 @@ public class ArrayBaseLRU<T> {
                 // 还有缓存空间
                 this.cache(object, count);
             }
-
         }else {
             // 缓存中有指定的值，更新缓存值位置
             this.update(index);

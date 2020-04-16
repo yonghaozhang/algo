@@ -13,40 +13,40 @@ public class ArrayBaseLRUTest {
     @Test
     public void testOffer() throws Exception {
         ArrayBaseLRU<Integer> lru = new ArrayBaseLRU<Integer>(3);
-        lru.offer(1);
+        lru.set(1);
         log.info(lru.toString());
-        lru.offer(2);
+        lru.set(2);
         log.info(lru.toString());
-        lru.offer(3);
+        lru.set(3);
         log.info(lru.toString());
-        lru.offer(4);
+        lru.set(4);
         log.info(lru.toString());
-        lru.offer(5);
+        lru.set(5);
         log.info(lru.toString());
-        lru.offer(6);
+        lru.set(6);
         log.info(lru.toString());
-        lru.offer(7);
+        lru.set(7);
         log.info(lru.toString());
-        lru.offer(8);
+        lru.set(8);
         log.info(lru.toString());
-        lru.offer(9);
+        lru.set(9);
         log.info(lru.toString());
     }
 
     @Test
     public void testOfferIfCacheKeyExist() throws Exception {
         ArrayBaseLRU<Integer> lru = new ArrayBaseLRU<Integer>(3);
-        lru.offer(1);
+        lru.set(1);
         log.info(lru.toString());
-        lru.offer(2);
+        lru.set(2);
         log.info(lru.toString());
-        lru.offer(3);
+        lru.set(3);
         log.info(lru.toString());
-        lru.offer(4);
+        lru.set(4);
         log.info(lru.toString());
-        lru.offer(2);
+        lru.set(2);
         log.info(lru.toString());
-        lru.offer(2);
+        lru.set(2);
         log.info(lru.toString());
     }
 

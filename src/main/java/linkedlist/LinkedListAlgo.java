@@ -20,11 +20,11 @@ public class LinkedListAlgo {
      * @return 新的头结点
      */
     public Node reverse(Node list) {
-        Node curr = list;
         Node pre = null;
+        Node curr = list;
         while (curr != null) {
-            Node next = curr.getNext();
-            curr.setNext(pre);
+            Node next = curr.next;
+            curr.next = pre;
             pre = curr;
             curr = next;
         }
@@ -33,17 +33,17 @@ public class LinkedListAlgo {
 
 
     /**
-     * 链表中是否有环
+     * 通过快慢指针，慢指针每次一步，快指针每次2步，链表中是否有环。
      * @param list
      * @return
      */
     public boolean hasCircle(Node list) {
         if (list == null) return false;
-        Node fast = list.getNext();
         Node slow = list;
-        while (fast != null && fast.getNext() != null) {
-            fast = fast.getNext().getNext();
-            slow = slow.getNext();
+        Node fast = list.next;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
             if (fast == slow) return true;
         }
         return false;
@@ -60,23 +60,26 @@ public class LinkedListAlgo {
         int i = 1;
         // 快指针先移动k位
         while (fast != null && i < k) {
-            fast = fast.getNext();
+            fast = fast.next;
             i++;
         }
-        if (fast == null) return list;
+
+        if (fast == null) return list; // 链表为空，或者链表没有k个元素。
 
         Node slow = list;
-        Node pre = null;
-        while (fast.getNext() != null) {
-            fast = fast.getNext();
-            pre = slow;
-            slow = slow.getNext();
+        Node slowPre = null;
 
+        while (fast.next != null) {
+            fast = fast.next;
+            slowPre = slow;
+            slow = slow.next;
         }
-        if (pre == null) {
-            list = list.getNext();
+
+        if (slowPre == null) {
+            // 倒数第k个节点就是第一个节点的时候。
+            return list.next;
         }else {
-            pre.setNext(pre.getNext().getNext());
+            slowPre.next = slowPre.next.next; // 删除第k个节点
         }
         return list;
     }
