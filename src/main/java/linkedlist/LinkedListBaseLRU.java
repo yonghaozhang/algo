@@ -34,36 +34,38 @@ public class LinkedListBaseLRU<T> {
      * 模拟访问某个缓存
      * @param data
      */
-    public void offer(T data) {
+    public void add(T data) {
         SNode preNode = this.findPreNode(data);
 
         if (preNode != null) {
             //链表中存在要插入的数据，删除原数据，再插入链表头部。
-            this.deleteElemOptim(preNode);
-            this.insertElementAtBegin(data);
+            this.deleteNextNode(preNode);
+            this.insertElementAtHead(data);
         }else {
             if (count >= capacity) {
                 // 链表已满
                 this.deleteElmAtEnd();
             }
             // 在链表头部插入元素
-            this.insertElementAtBegin(data);
+            this.insertElementAtHead(data);
         }
     }
 
 
     /**
-     * 要查找元素的上一个节点
+     * 获取要查找元素的上一个节点
      * @param data
      * @return
      */
     private SNode findPreNode(T data) {
         SNode node = this.headNode;
-        while (node.getNext() != null) {
-            if (data.equals(node.getNext().getElement())) {
-                return node.getNext();
+        while (node.next != null) {
+            Object element = node.next.element;
+            if (element.equals(data)) {
+                return node;
+            }else {
+                node = node.next;
             }
-            node = node.getNext();
         }
         return null;
     }
@@ -89,16 +91,19 @@ public class LinkedListBaseLRU<T> {
      * 删除preNode节点的下一个节点
      * @param preNode
      */
-    private void deleteElemOptim(SNode preNode) {
-        SNode temp = preNode.getNext();
-        preNode.setNext(temp.getNext());
-        temp = null;
+    private void deleteNextNode(SNode preNode) {
+        if (preNode.next == null) return;
+        preNode.next = preNode.next.next;
         count--;
     }
 
 
-    private void insertElementAtBegin(T data) {
-        SNode next = headNode.getNext();
+    /**
+     * 在链表同头部插入节点。
+     * @param data
+     */
+    private void insertElementAtHead(T data) {
+        SNode next = headNode.next;
         headNode.setNext(new SNode(data, next));
         count++;
     }
@@ -133,4 +138,12 @@ public class LinkedListBaseLRU<T> {
         }
     }
 
+    @Override
+    public String toString() {
+        return "LinkedListBaseLRU{" +
+                "headNode=" + headNode +
+                ", count=" + count +
+                ", capacity=" + capacity +
+                '}';
+    }
 }

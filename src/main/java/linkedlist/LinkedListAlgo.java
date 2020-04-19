@@ -91,12 +91,13 @@ public class LinkedListAlgo {
      * @return
      */
     public Node findMidNode(Node list) {
-        if (list == null)  return null;
         Node fast = list;
         Node slow = list;
-        while (fast != null && fast.getNext() != null) {
-            fast = fast.getNext().getNext();
-            slow = slow.getNext();
+        if (list == null) return null;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
         }
         return slow;
     }

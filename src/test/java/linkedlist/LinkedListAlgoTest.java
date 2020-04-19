@@ -64,7 +64,24 @@ public class LinkedListAlgoTest {
 
         Node list = linkedListAlgo.deleteLastKthNode(node1, 2);
         log.info(JSON.toJSONString(list));
+    }
 
+    @Test
+    public void findMid() throws Exception {
+        LinkedListAlgo linkedListAlgo = new LinkedListAlgo();
+        Node node1 = new Node(1, null);
+        Node node2 = new Node(2, null);
+        Node node3 = new Node(3, null);
+        Node node4 = new Node(4, null);
+        Node node5 = new Node(5, null);
+
+        node1.next = node2;
+        node2.next = node3;
+        node3.next = node4;
+        node4.next = node5;
+
+        Node mid = linkedListAlgo.findMidNode(node1);
+        log.info(JSON.toJSONString(mid));
     }
 
 }

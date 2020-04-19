@@ -34,10 +34,10 @@
   <component name="ChangeListManager">
     <list default="true" id="93df98ae-2540-46f2-87d2-7ce70ce7bc03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/ArrayBaseLRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/ArrayBaseLRU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayBaseLRUTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayBaseLRUTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListBaseLRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListBaseLRU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/linkedlist/LinkedListAlgoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkedlist/LinkedListAlgoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +94,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListAlgoTest.deleteLastKthNode">
-    <configuration name="LinkedListAlgoTest.deleteLastKthNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.deleteByNode">
+    <configuration name="SinglyLinkedListTest.deleteByNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedListAlgoTest" />
-      <option name="METHOD_NAME" value="deleteLastKthNode" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="deleteByNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListAlgoTest.hasCircle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.deleteFirstByValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -120,14 +120,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedListAlgoTest" />
-      <option name="METHOD_NAME" value="hasCircle" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="deleteFirstByValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListAlgoTest.reverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.findByIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -136,40 +136,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedListAlgoTest" />
-      <option name="METHOD_NAME" value="reverse" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="findByIndex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyGenericArrayTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.findByValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="array" />
-      <option name="MAIN_CLASS_NAME" value="array.MyGenericArrayTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="PACKAGE_NAME" value="linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="findByValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyGenericArrayTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.testInsertNodeBeforeValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="array" />
-      <option name="MAIN_CLASS_NAME" value="array.MyGenericArrayTest" />
-      <option name="METHOD_NAME" value="insert" />
+      <option name="PACKAGE_NAME" value="linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="testInsertNodeBeforeValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListAlgoTest.deleteLastKthNode" />
-        <item itemvalue="JUnit.LinkedListAlgoTest.hasCircle" />
-        <item itemvalue="JUnit.LinkedListAlgoTest.reverse" />
-        <item itemvalue="JUnit.MyGenericArrayTest.delete" />
-        <item itemvalue="JUnit.MyGenericArrayTest.insert" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.deleteByNode" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.findByIndex" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.deleteFirstByValue" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.findByValue" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.testInsertNodeBeforeValue" />
       </list>
     </recent_temporary>
   </component>
@@ -215,58 +215,62 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="331" y="77" key="#Project_Structure/0.23.1680.947@0.23.1680.947" timestamp="1586773748288" />
-    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1586933634202">
+    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1587120834896">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1586933634202" />
-    <state width="1625" height="252" key="GridCell.Tab.0.bottom" timestamp="1587002191722">
+    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1587120834896" />
+    <state x="606" y="208" key="#xdebugger.evaluate" timestamp="1587116800993">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587002191722" />
-    <state width="1625" height="252" key="GridCell.Tab.0.center" timestamp="1587002191721">
+    <state x="606" y="208" key="#xdebugger.evaluate/0.23.1680.947@0.23.1680.947" timestamp="1587116800993" />
+    <state width="1625" height="252" key="GridCell.Tab.0.bottom" timestamp="1587297452242">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1587002191721" />
-    <state width="1625" height="252" key="GridCell.Tab.0.left" timestamp="1587002191721">
+    <state width="1625" height="252" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587297452242" />
+    <state width="1625" height="252" key="GridCell.Tab.0.center" timestamp="1587297452241">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1587002191721" />
-    <state width="1625" height="252" key="GridCell.Tab.0.right" timestamp="1587002191722">
+    <state width="1625" height="252" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1587297452241" />
+    <state width="1625" height="252" key="GridCell.Tab.0.left" timestamp="1587297452241">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1587002191722" />
-    <state width="1625" height="311" key="GridCell.Tab.1.bottom" timestamp="1586949375444">
+    <state width="1625" height="252" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1587297452241" />
+    <state width="1625" height="252" key="GridCell.Tab.0.right" timestamp="1587297452241">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1586949375444" />
-    <state width="1625" height="311" key="GridCell.Tab.1.center" timestamp="1586949375443">
+    <state width="1625" height="252" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1587297452241" />
+    <state width="1625" height="311" key="GridCell.Tab.1.bottom" timestamp="1587121748923">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1586949375443" />
-    <state width="1625" height="311" key="GridCell.Tab.1.left" timestamp="1586949375443">
+    <state width="1625" height="311" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587121748923" />
+    <state width="1625" height="311" key="GridCell.Tab.1.center" timestamp="1587121748923">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1586949375443" />
-    <state width="1625" height="311" key="GridCell.Tab.1.right" timestamp="1586949375444">
+    <state width="1625" height="311" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1587121748923" />
+    <state width="1625" height="311" key="GridCell.Tab.1.left" timestamp="1587121748923">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1586949375444" />
+    <state width="1625" height="311" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1587121748923" />
+    <state width="1625" height="311" key="GridCell.Tab.1.right" timestamp="1587121748923">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1625" height="311" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1587121748923" />
     <state x="352" y="136" key="SettingsEditor" timestamp="1586865065372">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="352" y="136" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1586865065372" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1586949812539">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1587297468153">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1680.947@0.23.1680.947" timestamp="1586949812539" />
-    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586939129670">
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.947@0.23.1680.947" timestamp="1587297468153" />
+    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587120686344">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.947@0.23.1680.947" timestamp="1586939129670" />
-    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1586948478855">
+    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.947@0.23.1680.947" timestamp="1587120686344" />
+    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1587269658270">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1586948478855" />
+    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1587269658270" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -296,21 +300,32 @@
           <line>35</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linkedlist/LinkedListBaseLRU.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linkedlist/LinkedListBaseLRU.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/linkedlist/SinglyLinkedListTest.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linkedlist/SinglyLinkedList.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linkedlist/SinglyLinkedList.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>matcher</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>top</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>

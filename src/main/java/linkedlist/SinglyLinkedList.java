@@ -1,5 +1,7 @@
 package linkedlist;
 
+import common.Node;
+
 /**
  * 单链表的 插入，查找，删除 操作
  * @author toby Zhang
@@ -34,15 +36,19 @@ public class SinglyLinkedList {
     }
 
 
+    /**
+     * 在尾部插入一个节点。
+     * @param node
+     */
     public void insert2Tail(Node node) {
         if (head == null) {
             head = node;
         }else {
-            Node ptr = head;
-            while (ptr.next != null) {
-                ptr = ptr.next;
+            Node tmp = head;
+            while (tmp.next != null) {
+                tmp = tmp.next;
             }
-            ptr.next = node;
+            tmp.next = node;
         }
     }
 
@@ -53,15 +59,7 @@ public class SinglyLinkedList {
      */
     public void insert2Tail(int value) {
         Node node = new Node(value, null);
-        if (head == null) {
-            head = node;
-        }else {
-            Node ptr = head;
-            while (ptr.next != null) {
-                ptr = ptr.next;
-            }
-            ptr.next = node;
-        }
+        this.insert2Tail(node);
     }
 
 
@@ -71,12 +69,9 @@ public class SinglyLinkedList {
      * @param x
      */
     public void insertAfter(Node p, Node x) {
-        if (p == null) {
-            p.next = x;
-        }else {
-            x.next = p.next;
-            p.next = x;
-        }
+        if (p == null) return;
+        x.next = p.next;
+        p.next = x;
     }
 
     /**
@@ -95,19 +90,20 @@ public class SinglyLinkedList {
      * @param x
      */
     public void insertBefore(Node p, Node x) {
-        if (p == null) return;
+        if (p == null) return; // p定节点为空
         if (p == head) {
+            // p节点为头结点
             this.insert2Head(x);
-        }
-        Node q = head;
-        while (q != null && q.next != p) {
-            q = q.next;
-        }
-        if (q == null) {
             return;
         }
-        q.next = x;
+        Node tmp = head;
+        while (tmp != null && tmp.next != p) {
+            tmp = tmp.next;
+        }
+        if (tmp == null) return;  //p节点在链表中不存在。
+
         x.next = p;
+        tmp.next = x;
     }
 
     /**
@@ -126,13 +122,12 @@ public class SinglyLinkedList {
      * @return
      */
     public Node findByValue(int value) {
-        Node p = head;
-        while (p !=null && value != p.data) {
-            p = p.next;
+        Node tmp = head;
+        while (tmp != null && tmp.data != value) {
+            tmp = tmp.next;
         }
-        return p;
+        return tmp;
     }
-
 
     /**
      * 根据下标查找
@@ -140,13 +135,13 @@ public class SinglyLinkedList {
      * @return
      */
     public Node findByIndex(int index) {
-        Node p = head;
         int pos = 0;
-        while (p != null && pos != index) {
-            p = p.next;
+        Node tmp = head;
+        while (tmp !=null && pos < index) {
+            tmp = tmp.next;
             pos++;
         }
-        return p;
+        return tmp;
     }
 
 
@@ -155,20 +150,15 @@ public class SinglyLinkedList {
      * @param x
      */
     public void deleteByNode(Node x) {
-        Node p = head;
-
-        if (p == null || x == null) return;
-
-        if (x == head) head = head.next;
-
-        while (p != null && p.next != x) {
-            p = p.next;
+        if (head == null || x == null) return;
+        Node tmp = head;
+        while (tmp != null && tmp.next != x) {
+            tmp = tmp.next;
         }
-
-        if (p == null) return;
-
-        p.next = p.next.next;
+        if (tmp == null) return;
+        tmp.next = tmp.next.next;
     }
+
 
     /**
      * 根据值删除找到的第一个节点
@@ -176,28 +166,29 @@ public class SinglyLinkedList {
      */
     public void deleteFirstByValue(int value) {
         if (head == null) return;
-
-        if (value == head.data) {
+        if (head.data == value) {
             head = null;
+            return;
         }
-        Node p = head;
-        while (p!= null && value != p.next.data) {
-            p = p.next;
+        Node tmp = head;
+        while (tmp.next != null && tmp.next.data != value) {
+            tmp = tmp.next;
         }
-        if (p == null) return;
 
-        p.next = p.next.next;
+        if (tmp.next == null) return;
+        tmp.next = tmp.next.next;
     }
 
 
-    public class Node {
-        private int data;
-        private Node next;
 
-        public Node(int data, Node next) {
-            this.data = data;
-            this.next = next;
+    @Override
+    public String toString() {
+        Node tmp = head;
+        StringBuilder str = new StringBuilder();
+        while (tmp != null) {
+            str.append(tmp.data);
+            tmp  = tmp.next;
         }
-
+        return str.toString();
     }
 }
