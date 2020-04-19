@@ -1,5 +1,7 @@
 package stack;
 
+import java.util.Arrays;
+
 /**
  * 基于数组实现的栈
  * @author toby Zhang
@@ -53,6 +55,12 @@ public class ArrayBaseStack {
         return item;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "ArrayBaseStack{" +
+                "items=" + Arrays.toString(items) +
+                ", count=" + count +
+                ", capacity=" + capacity +
+                '}';
+    }
 }

@@ -22,22 +22,18 @@ public class LinkedListBaseStack {
      */
     private int count;
 
-
-    public LinkedListBaseStack() {
-    }
-
     /**
      * 入栈
      * @param value
      * @return
      */
     public void push(int value) {
-        Node newNode = new Node(value, null);
+        Node n = new Node(value, null);
         if (top == null) {
-            top = newNode;
+            top = n;
         }else {
-            newNode.setNext(top);
-            top = newNode;
+            n.next = top;
+            top = n;
         }
         count++;
     }
@@ -49,10 +45,10 @@ public class LinkedListBaseStack {
      */
     public int pop() {
         if (top == null) return -1;
-        Node p = top;
-        top = top.getNext();
+        Node n = top;
+        top = top.next;
         count--;
-        return p.getData();
+        return n.data;
     }
 
     /**

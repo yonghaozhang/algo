@@ -35,9 +35,9 @@
     <list default="true" id="93df98ae-2540-46f2-87d2-7ce70ce7bc03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListBaseLRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListBaseLRU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/linkedlist/LinkedListAlgoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkedlist/LinkedListAlgoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stack/ArrayBaseStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack/ArrayBaseStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stack/LinkedListBaseStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack/LinkedListBaseStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/note.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +80,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="stack" />
       <recent name="linkedlist" />
       <recent name="array" />
       <recent name="graph" />
       <recent name="sort" />
-      <recent name="queue" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="sort" />
@@ -94,7 +94,59 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.deleteByNode">
+  <component name="RunManager" selected="JUnit.LinkedListBaseStackTest.pop">
+    <configuration name="ArrayBaseStackTest.pop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stack" />
+      <option name="MAIN_CLASS_NAME" value="stack.ArrayBaseStackTest" />
+      <option name="METHOD_NAME" value="pop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayBaseStackTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stack" />
+      <option name="MAIN_CLASS_NAME" value="stack.ArrayBaseStackTest" />
+      <option name="METHOD_NAME" value="push" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListBaseStackTest.pop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListBaseStackTest" />
+      <option name="METHOD_NAME" value="pop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListBaseStackTest.testPush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListBaseStackTest" />
+      <option name="METHOD_NAME" value="testPush" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SinglyLinkedListTest.deleteByNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
@@ -111,77 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.deleteFirstByValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="deleteFirstByValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinglyLinkedListTest.findByIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="findByIndex" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinglyLinkedListTest.findByValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="findByValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinglyLinkedListTest.testInsertNodeBeforeValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="testInsertNodeBeforeValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListBaseStackTest.pop" />
+        <item itemvalue="JUnit.LinkedListBaseStackTest.testPush" />
+        <item itemvalue="JUnit.ArrayBaseStackTest.pop" />
+        <item itemvalue="JUnit.ArrayBaseStackTest.push" />
         <item itemvalue="JUnit.SinglyLinkedListTest.deleteByNode" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.findByIndex" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.deleteFirstByValue" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.findByValue" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.testInsertNodeBeforeValue" />
       </list>
     </recent_temporary>
   </component>
@@ -215,62 +203,62 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="331" y="77" key="#Project_Structure/0.23.1680.947@0.23.1680.947" timestamp="1586773748288" />
-    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1587120834896">
+    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1587302252436">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1587120834896" />
+    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1587302252436" />
     <state x="606" y="208" key="#xdebugger.evaluate" timestamp="1587116800993">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="606" y="208" key="#xdebugger.evaluate/0.23.1680.947@0.23.1680.947" timestamp="1587116800993" />
-    <state width="1625" height="252" key="GridCell.Tab.0.bottom" timestamp="1587297452242">
+    <state width="1625" height="252" key="GridCell.Tab.0.bottom" timestamp="1587302982295">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587297452242" />
-    <state width="1625" height="252" key="GridCell.Tab.0.center" timestamp="1587297452241">
+    <state width="1625" height="252" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587302982295" />
+    <state width="1625" height="252" key="GridCell.Tab.0.center" timestamp="1587302982295">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1587297452241" />
-    <state width="1625" height="252" key="GridCell.Tab.0.left" timestamp="1587297452241">
+    <state width="1625" height="252" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1587302982295" />
+    <state width="1625" height="252" key="GridCell.Tab.0.left" timestamp="1587302982294">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1587297452241" />
-    <state width="1625" height="252" key="GridCell.Tab.0.right" timestamp="1587297452241">
+    <state width="1625" height="252" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1587302982294" />
+    <state width="1625" height="252" key="GridCell.Tab.0.right" timestamp="1587302982295">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1587297452241" />
-    <state width="1625" height="311" key="GridCell.Tab.1.bottom" timestamp="1587121748923">
+    <state width="1625" height="252" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1587302982295" />
+    <state width="1625" height="311" key="GridCell.Tab.1.bottom" timestamp="1587297608563">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587121748923" />
-    <state width="1625" height="311" key="GridCell.Tab.1.center" timestamp="1587121748923">
+    <state width="1625" height="311" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587297608563" />
+    <state width="1625" height="311" key="GridCell.Tab.1.center" timestamp="1587297608562">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1587121748923" />
-    <state width="1625" height="311" key="GridCell.Tab.1.left" timestamp="1587121748923">
+    <state width="1625" height="311" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1587297608562" />
+    <state width="1625" height="311" key="GridCell.Tab.1.left" timestamp="1587297608562">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1587121748923" />
-    <state width="1625" height="311" key="GridCell.Tab.1.right" timestamp="1587121748923">
+    <state width="1625" height="311" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1587297608562" />
+    <state width="1625" height="311" key="GridCell.Tab.1.right" timestamp="1587297608563">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1587121748923" />
+    <state width="1625" height="311" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1587297608563" />
     <state x="352" y="136" key="SettingsEditor" timestamp="1586865065372">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="352" y="136" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1586865065372" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1587297468153">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1587302969610">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1680.947@0.23.1680.947" timestamp="1587297468153" />
-    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587120686344">
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.947@0.23.1680.947" timestamp="1587302969610" />
+    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587302094909">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.947@0.23.1680.947" timestamp="1587120686344" />
-    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1587269658270">
+    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.947@0.23.1680.947" timestamp="1587302094909" />
+    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1587302569602">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1587269658270" />
+    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1587302569602" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

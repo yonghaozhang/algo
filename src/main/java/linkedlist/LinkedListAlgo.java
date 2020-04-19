@@ -23,10 +23,10 @@ public class LinkedListAlgo {
         Node pre = null;
         Node curr = list;
         while (curr != null) {
-            Node next = curr.next;
-            curr.next = pre;
-            pre = curr;
-            curr = next;
+            Node next = curr.next; // 记下next 指针
+            curr.next = pre; // next 指针指向前一个节点
+            pre = curr; // 前一个节点 指向当前节点
+            curr = next; // 当前节点指向下一个节点
         }
         return pre;
     }
