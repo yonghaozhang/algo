@@ -9,9 +9,9 @@ import common.Node;
  */
 public class LinkedListQueue {
 
-    private Node head;
+    private Node head; //头指针
 
-    private Node tail;
+    private Node tail; //尾指针
 
 
     /**
@@ -25,19 +25,21 @@ public class LinkedListQueue {
             head = node;
             tail = node;
         }else {
-            tail.setNext(new Node(item, null));
-            tail = tail.getNext();
+            tail.next = new Node(item, null);
+            tail = tail.next;
         }
         return true;
     }
 
 
     public int dequeue() {
-        if (head == null) return -1;
-        int item = head.getData();
-        head = head.getNext();
-        if (head == null) tail = null;
-        return item;
+        if (head == null) return -1; // 队列为空
+        Node tmp = head;
+        head = head.next;
+        if (head == null) {
+            tail = null;  // 队列只有一个元素
+        }
+        return tmp.data;
     }
 
     @Override

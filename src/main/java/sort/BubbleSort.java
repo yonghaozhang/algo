@@ -8,25 +8,18 @@ package sort;
  */
 public class BubbleSort {
 
-    /**
-     *
-     * @param a 数组
-     * @param n 数组大小
-     */
-    public void sortAsASC(int[] a, int n) {
-        if (n <= 1) return;
-
-        for (int i = 0; i < n; i++) {
-            boolean flag = false;
-            for (int j = 0; j < n - i - 1; j++) {
-                if (a[j] > a[j+1]) {
+    public void sortAsASC(int[] a) {
+        for (int i = 0; i < a.length; i++) {
+            boolean flag = true;
+            for (int j = 0; j < a.length - 1 - i; j++) {
+                if (a[j+1] < a[j]) {
                     int tmp = a[j];
                     a[j] = a[j+1];
                     a[j+1] = tmp;
-                    flag = true;
+                    flag = false;
                 }
             }
-            if (!flag) break;
+            if (flag) break;
         }
     }
 

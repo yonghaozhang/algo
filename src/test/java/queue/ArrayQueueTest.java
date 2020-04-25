@@ -14,7 +14,7 @@ import queue.ArrayQueue;
 public class ArrayQueueTest {
 
     @Test
-    public void testEnqueue() {
+    public void testEnqueue() throws Exception {
         ArrayQueue queue = new ArrayQueue(3);
         queue.enqueue("a");
         queue.enqueue("b");
@@ -26,7 +26,7 @@ public class ArrayQueueTest {
     }
 
     @Test
-    public void dequeue() {
+    public void dequeue() throws Exception {
         ArrayQueue queue = new ArrayQueue(3);
         queue.enqueue("a");
         queue.enqueue("b");
@@ -34,7 +34,6 @@ public class ArrayQueueTest {
         String item = queue.dequeue();
         log.info(queue.toString());
         Assert.assertEquals("a", item);
-
     }
 
 }

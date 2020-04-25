@@ -48,7 +48,6 @@ public class StackBaseBrowser {
             return value;
         }
         return -1;
-
     }
 
 

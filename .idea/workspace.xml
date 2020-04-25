@@ -33,11 +33,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93df98ae-2540-46f2-87d2-7ce70ce7bc03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/queue/CircleQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/queue/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/设计模式之美.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stack/ArrayBaseStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack/ArrayBaseStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stack/LinkedListBaseStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack/LinkedListBaseStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/queue/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/queue/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/queue/LinkedListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stack/StackBaseBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack/StackBaseBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/数据结构与算法之美.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/queue/ArrayQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/queue/ArrayQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/queue/CircleQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/queue/CircleQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/queue/CircleQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sort/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sort/BubbleSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/queue/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/queue/LinkedListQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/queue/LinkedListQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stack/StackBaseBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stack/StackBaseBrowser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/queue/ArrayQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/queue/ArrayQueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/queue/CircleQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/queue/CircleQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/queue/CircleQueueTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +62,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -72,7 +88,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586423359118" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -80,11 +96,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="queue" />
       <recent name="stack" />
       <recent name="linkedlist" />
       <recent name="array" />
       <recent name="graph" />
-      <recent name="sort" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="sort" />
@@ -93,71 +109,86 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListBaseStackTest.pop">
-    <configuration name="ArrayBaseStackTest.pop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BubbleSortTest.testSortAsASC">
+    <configuration name="BubbleSortTest.testSortAsASC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stack" />
-      <option name="MAIN_CLASS_NAME" value="stack.ArrayBaseStackTest" />
-      <option name="METHOD_NAME" value="pop" />
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.BubbleSortTest" />
+      <option name="METHOD_NAME" value="testSortAsASC" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayBaseStackTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CircleQueueTest.testDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stack" />
-      <option name="MAIN_CLASS_NAME" value="stack.ArrayBaseStackTest" />
-      <option name="METHOD_NAME" value="push" />
+      <option name="PACKAGE_NAME" value="queue" />
+      <option name="MAIN_CLASS_NAME" value="queue.CircleQueueTest" />
+      <option name="METHOD_NAME" value="testDequeue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListBaseStackTest.pop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListBaseStackTest" />
-      <option name="METHOD_NAME" value="pop" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListBaseStackTest.testPush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListBaseStackTest" />
-      <option name="METHOD_NAME" value="testPush" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinglyLinkedListTest.deleteByNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CircleQueueTest.testEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="deleteByNode" />
+      <option name="PACKAGE_NAME" value="queue" />
+      <option name="MAIN_CLASS_NAME" value="queue.CircleQueueTest" />
+      <option name="METHOD_NAME" value="testEnqueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListQueueTest.testDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="queue" />
+      <option name="MAIN_CLASS_NAME" value="queue.LinkedListQueueTest" />
+      <option name="METHOD_NAME" value="testDequeue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListQueueTest.testEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="queue" />
+      <option name="MAIN_CLASS_NAME" value="queue.LinkedListQueueTest" />
+      <option name="METHOD_NAME" value="testEnqueue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListBaseStackTest.pop" />
-        <item itemvalue="JUnit.LinkedListBaseStackTest.testPush" />
-        <item itemvalue="JUnit.ArrayBaseStackTest.pop" />
-        <item itemvalue="JUnit.ArrayBaseStackTest.push" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.deleteByNode" />
+        <item itemvalue="JUnit.BubbleSortTest.testSortAsASC" />
+        <item itemvalue="JUnit.CircleQueueTest.testDequeue" />
+        <item itemvalue="JUnit.CircleQueueTest.testEnqueue" />
+        <item itemvalue="JUnit.LinkedListQueueTest.testDequeue" />
+        <item itemvalue="JUnit.LinkedListQueueTest.testEnqueue" />
       </list>
     </recent_temporary>
   </component>
@@ -203,62 +234,66 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="331" y="77" key="#Project_Structure/0.23.1680.947@0.23.1680.947" timestamp="1586773748288" />
-    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1587302252436">
+    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1587638770497">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1587302252436" />
+    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1587638770497" />
+    <state x="581" y="251" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587638660800">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="581" y="251" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.947@0.23.1680.947" timestamp="1587638660800" />
     <state x="606" y="208" key="#xdebugger.evaluate" timestamp="1587116800993">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="606" y="208" key="#xdebugger.evaluate/0.23.1680.947@0.23.1680.947" timestamp="1587116800993" />
-    <state width="1625" height="252" key="GridCell.Tab.0.bottom" timestamp="1587302982295">
+    <state width="1625" height="252" key="GridCell.Tab.0.bottom" timestamp="1587720799097">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587302982295" />
-    <state width="1625" height="252" key="GridCell.Tab.0.center" timestamp="1587302982295">
+    <state width="1625" height="252" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587720799097" />
+    <state width="1625" height="252" key="GridCell.Tab.0.center" timestamp="1587720799096">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1587302982295" />
-    <state width="1625" height="252" key="GridCell.Tab.0.left" timestamp="1587302982294">
+    <state width="1625" height="252" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1587720799096" />
+    <state width="1625" height="252" key="GridCell.Tab.0.left" timestamp="1587720799096">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1587302982294" />
-    <state width="1625" height="252" key="GridCell.Tab.0.right" timestamp="1587302982295">
+    <state width="1625" height="252" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1587720799096" />
+    <state width="1625" height="252" key="GridCell.Tab.0.right" timestamp="1587720799097">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1587302982295" />
-    <state width="1625" height="311" key="GridCell.Tab.1.bottom" timestamp="1587297608563">
+    <state width="1625" height="252" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1587720799097" />
+    <state width="1625" height="311" key="GridCell.Tab.1.bottom" timestamp="1587639193272">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587297608563" />
-    <state width="1625" height="311" key="GridCell.Tab.1.center" timestamp="1587297608562">
+    <state width="1625" height="311" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587639193272" />
+    <state width="1625" height="311" key="GridCell.Tab.1.center" timestamp="1587639193272">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1587297608562" />
-    <state width="1625" height="311" key="GridCell.Tab.1.left" timestamp="1587297608562">
+    <state width="1625" height="311" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1587639193272" />
+    <state width="1625" height="311" key="GridCell.Tab.1.left" timestamp="1587639193271">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1587297608562" />
-    <state width="1625" height="311" key="GridCell.Tab.1.right" timestamp="1587297608563">
+    <state width="1625" height="311" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1587639193271" />
+    <state width="1625" height="311" key="GridCell.Tab.1.right" timestamp="1587639193272">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1587297608563" />
+    <state width="1625" height="311" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1587639193272" />
     <state x="352" y="136" key="SettingsEditor" timestamp="1586865065372">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="352" y="136" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1586865065372" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1587302969610">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1587639247072">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1680.947@0.23.1680.947" timestamp="1587302969610" />
-    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587302094909">
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.947@0.23.1680.947" timestamp="1587639247072" />
+    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587638642618">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.947@0.23.1680.947" timestamp="1587302094909" />
-    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1587302569602">
+    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.947@0.23.1680.947" timestamp="1587638642618" />
+    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1587721364059">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1587302569602" />
+    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1587721364059" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -312,6 +347,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/linkedlist/SinglyLinkedList.java</url>
           <line>50</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/queue/CircleQueue.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

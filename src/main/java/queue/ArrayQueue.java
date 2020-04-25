@@ -11,11 +11,12 @@ public class ArrayQueue {
 
     private String[] items;
 
-    private int head = 0;
+    private int n;
+
+    private int head = 0; // 堆头下表，队尾下表
 
     private int tail = 0;
 
-    private int capacity;
 
 
     /**
@@ -23,7 +24,7 @@ public class ArrayQueue {
      * @param capacity
      */
     public ArrayQueue(int capacity) {
-        this.capacity = capacity;
+        this.n = capacity;
         items = new String[capacity];
     }
 
@@ -34,17 +35,16 @@ public class ArrayQueue {
      * @return
      */
     public boolean enqueue(String item) {
-        if (tail == capacity) {
-            if (head ==0) return false;
+        if (tail == n) {
+            if (head == 0) return false;
             for (int i = head; i < tail; i++) {
-                items[i - head] = items[i];
+                items[i-head] = items[i];
             }
             head = 0;
             tail -= head;
-            items[tail++] = item;
-            return true;
         }
-        return false;
+        items[tail++] = item;
+        return true;
     }
 
 

@@ -21,7 +21,7 @@ public class BubbleSortTest {
     public void testSortAsASC() throws Exception {
         BubbleSort sort = new BubbleSort();
         int[] arr = new int[]{4,2,6,3,7,1};
-        sort.sortAsASC(arr, 6);
+        sort.sortAsASC(arr);
         log.info(JSON.toJSONString(arr));
     }
 

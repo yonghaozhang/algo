@@ -14,33 +14,33 @@ import org.junit.Test;
 public class CircleQueueTest {
 
     @Test
-    public void testEnqueue() {
+    public void testEnqueue() throws Exception {
         CircleQueue queue = new CircleQueue(3);
-        queue.enqueue(1);
-        queue.enqueue(2);
-        queue.enqueue(3);
-        queue.enqueue(4);
+        queue.enqueue("1");
+        queue.enqueue("2");
+        queue.enqueue("3");
+        queue.enqueue("4");
         log.info(queue.toString());
-        Assert.assertEquals("1,2,", queue.toString());
+        Assert.assertEquals("[1, 2, null]", queue.toString());
 
     }
 
     @Test
-    public void testDequeue() {
+    public void testDequeue() throws Exception {
         CircleQueue queue = new CircleQueue(3);
-        queue.enqueue(1);
-        queue.enqueue(2);
-        queue.enqueue(3);
-        queue.enqueue(4);
+        queue.enqueue("1");
+        queue.enqueue("2");
+        queue.enqueue("3");
+        queue.enqueue("4");
         log.info(queue.toString());
-        Assert.assertEquals(1, queue.dequeue());
-        log.info(queue.toString());
-
-        Assert.assertEquals(2, queue.dequeue());
+        Assert.assertEquals("1", queue.dequeue());
         log.info(queue.toString());
 
-        Assert.assertEquals(-1, queue.dequeue());
+        Assert.assertEquals("2", queue.dequeue());
         log.info(queue.toString());
 
+        Assert.assertNull(queue.dequeue());
+        log.info(queue.toString());
     }
+
 }
