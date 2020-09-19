@@ -11,9 +11,9 @@ public class BinarySearch {
     /**
      * 非递归方式
      * @param a
-     * @param n
+     * @param n - 数组元素个数
      * @param value
-     * @return
+     * @return 查找元素的下标
      */
     public int bSearch(int[] a, int n, int value) {
         int low = 0;
@@ -27,7 +27,7 @@ public class BinarySearch {
                 low = mid + 1;
 
             }else
-                high = mid + 1;
+                high = mid - 1;
         }
         return -1;
     }
@@ -109,7 +109,7 @@ public class BinarySearch {
             int mid = low + ((high - low) >>1);
             if (a[mid] >= value) {
                 if ((mid == 0) || (a[mid - 1] < value)) return mid;
-                else  low = mid -1;
+                else  high = mid -1;
             }else {
                 low = mid + 1;
             }
@@ -137,6 +137,72 @@ public class BinarySearch {
         }
         return -1;
     }
+
+
+    /**
+     * 近似求一个数的平方根，精确到小数点后precision位。
+     * @param x
+     * @param precision
+     * @return
+     */
+    public double sqrt(double x, double precision) {
+        if (x == 1) return 1;
+        if (x < 0) return -1;
+
+        double high;
+        double low;
+        if (x > 0 && x < 1) {
+            high = 1;
+            low = x;
+        }else {
+            // x>1
+            high = x;
+            low = 1;
+        }
+        double mid = (low + high) / 2;
+        while (high - low >= precision) {
+            if (mid * mid == x) {
+                return mid;
+            } else if (mid * mid > x) {
+                high = mid - precision;
+                mid = (low + high)/2;
+            }else {
+                low = mid + precision;
+                mid = (low + high)/2;
+            }
+        }
+        return mid;
+    }
+
+    /**
+     * 递归近似求一个数的平方根，精确到小数点后precision位。
+     * @param x
+     * @param precision
+     * @return
+     */
+    public double sqrtRecursion(double x, double precision) {
+        if (x < 0) return -1;
+        if (x == 0) return 0;
+        if (x == 1) return 1;
+        if (x > 0 && x < 1) {
+            return this.sqrtRecursionInternal(x, 1, x, precision);
+        }else {
+            return this.sqrtRecursionInternal(x, x, 1, precision);
+        }
+    }
+
+    private double sqrtRecursionInternal(double x, double high, double low, double precision) {
+        double mid = (high + low) / 2;
+        if (high - low <= precision) return mid; // 终止条件
+        if (mid * mid == x) {
+            return mid;
+        }else if (mid * mid < x) {
+            return this.sqrtRecursionInternal(x, high, mid + precision, precision);
+        }else {
+            return this.sqrtRecursionInternal(x, mid - precision, low, precision);
+        }
+    }
+
 
 
     private int bSearchInternal(int[] a, int low, int high, int value) {

@@ -20,7 +20,7 @@ public class HashTable<K, V> {
 
     private int size = 0; // 实际元素数量
 
-    private int use = 0; // 散列表应用数量
+    private int use = 0; // 散列表索引数量
 
     /**
      * constructor
@@ -69,7 +69,6 @@ public class HashTable<K, V> {
     }
 
     public void remove(K key) {
-        // TODO: 2020-03-11
         int index = this.hash(key);
         Entry e = table[index];
         if (e == null || e.next == null) {
@@ -87,7 +86,6 @@ public class HashTable<K, V> {
                 return;
             }
         }while (e.next != null);
-        LinkedHashMap map = new LinkedHashMap<Integer, Integer>();
     }
 
     /**

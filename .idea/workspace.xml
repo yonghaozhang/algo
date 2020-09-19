@@ -33,26 +33,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93df98ae-2540-46f2-87d2-7ce70ce7bc03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/CircleQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/设计模式之美.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/Graph4Learning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/HashTable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/LRUBaseHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/heap/Heap4Learning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search/BinarySearch2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skiplist/SkipList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/BucketSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/CountSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/ISort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/KthSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/RadixSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/SortLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/BinarySearchTree2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/queue/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/queue/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/queue/LinkedListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hashtable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hashtable/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heap/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heap/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stack/StackBaseBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack/StackBaseBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/数据结构与算法之美.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/queue/ArrayQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/queue/ArrayQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/queue/CircleQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/queue/CircleQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/queue/CircleQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sort/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sort/BubbleSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/note.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/queue/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/queue/LinkedListQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/queue/LinkedListQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stack/StackBaseBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stack/StackBaseBrowser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/queue/ArrayQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/queue/ArrayQueueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/queue/CircleQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/queue/CircleQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/queue/CircleQueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sort/BucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/BucketSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sort/CountingSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sort/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/RadixSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/数据结构与算法之美.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/数据结构与算法之美.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/设计模式之美.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/设计模式之美.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sort/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sort/BubbleISortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sort/InsertionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sort/InsertionISortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sort/SelectionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sort/SelectionISortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/graph/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hashtable/HashTable$Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hashtable/HashTable$Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hashtable/HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hashtable/HashTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/heap/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/heap/Heap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/search/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/search/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sort/BucketSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/BucketSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sort/CountingSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sort/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sort/RadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/RadixSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sort/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/数据结构与算法之美.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/数据结构与算法之美.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/设计模式之美.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/设计模式之美.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/algo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sort/BubbleSortTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sort/InsertionSortTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sort/SelectionSortTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,17 +93,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>put</find>
-      <find>linkedhashmap</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,11 +121,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="queue" />
-      <recent name="stack" />
-      <recent name="linkedlist" />
-      <recent name="array" />
-      <recent name="graph" />
+      <recent name="tree" />
+      <recent name="hashtable" />
+      <recent name="skiplist" />
+      <recent name="search" />
+      <recent name="sort" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="sort" />
@@ -113,8 +138,8 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BubbleSortTest.testSortAsASC">
-    <configuration name="BubbleSortTest.testSortAsASC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MergeISortTest.mergeSort">
+    <configuration name="BubbleISortTest.testSortAsASC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -123,72 +148,72 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.BubbleSortTest" />
+      <option name="MAIN_CLASS_NAME" value="sort.BubbleISortTest" />
       <option name="METHOD_NAME" value="testSortAsASC" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleQueueTest.testDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GraphTest.testBFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queue" />
-      <option name="MAIN_CLASS_NAME" value="queue.CircleQueueTest" />
-      <option name="METHOD_NAME" value="testDequeue" />
+      <option name="PACKAGE_NAME" value="graph" />
+      <option name="MAIN_CLASS_NAME" value="graph.GraphTest" />
+      <option name="METHOD_NAME" value="testBFS" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleQueueTest.testEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashTable2Test.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queue" />
-      <option name="MAIN_CLASS_NAME" value="queue.CircleQueueTest" />
-      <option name="METHOD_NAME" value="testEnqueue" />
+      <option name="PACKAGE_NAME" value="hashtable" />
+      <option name="MAIN_CLASS_NAME" value="hashtable.HashTable2Test" />
+      <option name="METHOD_NAME" value="remove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListQueueTest.testDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeISortTest.mergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queue" />
-      <option name="MAIN_CLASS_NAME" value="queue.LinkedListQueueTest" />
-      <option name="METHOD_NAME" value="testDequeue" />
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.MergeISortTest" />
+      <option name="METHOD_NAME" value="mergeSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListQueueTest.testEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickISortTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queue" />
-      <option name="MAIN_CLASS_NAME" value="queue.LinkedListQueueTest" />
-      <option name="METHOD_NAME" value="testEnqueue" />
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.QuickISortTest" />
+      <option name="METHOD_NAME" value="sort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BubbleSortTest.testSortAsASC" />
-        <item itemvalue="JUnit.CircleQueueTest.testDequeue" />
-        <item itemvalue="JUnit.CircleQueueTest.testEnqueue" />
-        <item itemvalue="JUnit.LinkedListQueueTest.testDequeue" />
-        <item itemvalue="JUnit.LinkedListQueueTest.testEnqueue" />
+        <item itemvalue="JUnit.MergeISortTest.mergeSort" />
+        <item itemvalue="JUnit.QuickISortTest.sort" />
+        <item itemvalue="JUnit.BubbleISortTest.testSortAsASC" />
+        <item itemvalue="JUnit.GraphTest.testBFS" />
+        <item itemvalue="JUnit.HashTable2Test.remove" />
       </list>
     </recent_temporary>
   </component>
@@ -230,70 +255,77 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="77" key="#Project_Structure" timestamp="1586773748288">
+    <state x="605" y="209" key="#Auto_Import" timestamp="1598409389767">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="331" y="77" key="#Project_Structure/0.23.1680.947@0.23.1680.947" timestamp="1586773748288" />
-    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1587638770497">
+    <state x="605" y="209" key="#Auto_Import/0.23.1680.947@0.23.1680.947" timestamp="1598409389767" />
+    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1598350381357">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1587638770497" />
-    <state x="581" y="251" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587638660800">
+    <state x="656" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1598350381357" />
+    <state width="1625" height="252" key="GridCell.Tab.0.bottom" timestamp="1600422476872">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1625" height="311" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1598350191963" />
+    <state width="1625" height="252" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1600422476872" />
+    <state width="1625" height="252" key="GridCell.Tab.0.center" timestamp="1600422476871">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1625" height="311" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1598350191962" />
+    <state width="1625" height="252" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1600422476871" />
+    <state width="1625" height="252" key="GridCell.Tab.0.left" timestamp="1600422476870">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1625" height="311" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1598350191961" />
+    <state width="1625" height="252" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1600422476870" />
+    <state width="1625" height="252" key="GridCell.Tab.0.right" timestamp="1600422476871">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1625" height="311" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1598350191962" />
+    <state width="1625" height="252" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1600422476871" />
+    <state width="1625" height="311" key="GridCell.Tab.1.bottom" timestamp="1599559468458">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1625" height="311" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1598350191964" />
+    <state width="1625" height="311" key="GridCell.Tab.1.bottom/0.23.1680.949@0.23.1680.949" timestamp="1599559468458" />
+    <state width="1625" height="311" key="GridCell.Tab.1.center" timestamp="1599559468458">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1625" height="311" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1598350191963" />
+    <state width="1625" height="311" key="GridCell.Tab.1.center/0.23.1680.949@0.23.1680.949" timestamp="1599559468458" />
+    <state width="1625" height="311" key="GridCell.Tab.1.left" timestamp="1599559468457">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1625" height="311" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1598350191963" />
+    <state width="1625" height="311" key="GridCell.Tab.1.left/0.23.1680.949@0.23.1680.949" timestamp="1599559468457" />
+    <state width="1625" height="311" key="GridCell.Tab.1.right" timestamp="1599559468458">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1625" height="311" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1598350191964" />
+    <state width="1625" height="311" key="GridCell.Tab.1.right/0.23.1680.949@0.23.1680.949" timestamp="1599559468458" />
+    <state width="500" height="446" key="SwitcherDM" timestamp="1600422482438">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.947@0.23.1680.947" timestamp="1598605761931" />
+    <state width="500" height="446" key="SwitcherDM/0.23.1680.949@0.23.1680.949" timestamp="1600422482438" />
+    <state x="544" y="254" width="598" height="486" key="find.popup" timestamp="1595581369834">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="581" y="251" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.947@0.23.1680.947" timestamp="1587638660800" />
-    <state x="606" y="208" key="#xdebugger.evaluate" timestamp="1587116800993">
+    <state x="544" y="254" width="598" height="486" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1595581369834" />
+    <state width="1042" height="756" key="javadoc.popup.new" timestamp="1598857006309">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1042" height="754" key="javadoc.popup.new/0.23.1680.947@0.23.1680.947" timestamp="1598425960846" />
+    <state width="1042" height="756" key="javadoc.popup.new/0.23.1680.949@0.23.1680.949" timestamp="1598857006309" />
+    <state x="508" y="229" width="670" height="675" key="run.anything.popup" timestamp="1595324709879">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="606" y="208" key="#xdebugger.evaluate/0.23.1680.947@0.23.1680.947" timestamp="1587116800993" />
-    <state width="1625" height="252" key="GridCell.Tab.0.bottom" timestamp="1587720799097">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state x="508" y="229" width="670" height="675" key="run.anything.popup/0.23.1680.947@0.23.1680.947" timestamp="1595324709879" />
+    <state x="508" y="148" width="670" height="678" key="search.everywhere.popup" timestamp="1600412295431">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587720799097" />
-    <state width="1625" height="252" key="GridCell.Tab.0.center" timestamp="1587720799096">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1587720799096" />
-    <state width="1625" height="252" key="GridCell.Tab.0.left" timestamp="1587720799096">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1587720799096" />
-    <state width="1625" height="252" key="GridCell.Tab.0.right" timestamp="1587720799097">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state width="1625" height="252" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1587720799097" />
-    <state width="1625" height="311" key="GridCell.Tab.1.bottom" timestamp="1587639193272">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587639193272" />
-    <state width="1625" height="311" key="GridCell.Tab.1.center" timestamp="1587639193272">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1587639193272" />
-    <state width="1625" height="311" key="GridCell.Tab.1.left" timestamp="1587639193271">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1587639193271" />
-    <state width="1625" height="311" key="GridCell.Tab.1.right" timestamp="1587639193272">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state width="1625" height="311" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1587639193272" />
-    <state x="352" y="136" key="SettingsEditor" timestamp="1586865065372">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state x="352" y="136" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1586865065372" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1587639247072">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1680.947@0.23.1680.947" timestamp="1587639247072" />
-    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587638642618">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state x="622" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.947@0.23.1680.947" timestamp="1587638642618" />
-    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1587721364059">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1587721364059" />
+    <state x="508" y="148" width="670" height="676" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1598424954280" />
+    <state x="508" y="148" width="670" height="678" key="search.everywhere.popup/0.23.1680.949@0.23.1680.949" timestamp="1600412295431" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -309,7 +341,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/sort/BubbleSortTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/sort/BubbleISortTest.java</url>
           <line>39</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -352,6 +384,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/queue/CircleQueue.java</url>
           <line>27</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/search/BinarySearch2.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/skiplist/SkipList2.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/hashtable/HashTable2Test.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hashtable/HashTable2.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hashtable/HashTable2.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hashtable/HashTable2.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

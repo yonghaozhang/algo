@@ -11,7 +11,9 @@ import java.util.Queue;
  */
 public class Graph {
 
-    private int v; // vertex 顶点下标 0， 1，2，3....
+    private static final int UNVISITED = -1;
+
+    private int v; // 顶点个数
     private LinkedList<Integer> adj[]; // 用邻接表表示图
 
     public Graph(int v) {
@@ -42,13 +44,13 @@ public class Graph {
     public void bfs(int s, int t) {
         if (s == t) return;
        // ------- 初始化 visited, queue, prev ------//
-        boolean[] visited = new boolean[v]; // visited是用来记录已经被访问的顶点，避免顶点被重复访问。
+        boolean[] visited = new boolean[v]; // visited是用来记录已经被访问的顶点，避免顶点被重复访问。visited数组下标是顶点i
         visited[s] = true;
-        Queue<Integer> queue = new LinkedList<Integer>(); // queue 是一个队列，用来存储已经被访问，但相连的顶点还没有被访问的顶点。
+        Queue<Integer> queue = new LinkedList<Integer>(); // queue 是一个队列，用来存储已经被访问，但相连的顶点还没有被访问的顶点的下标。我们需要把第 k 层的顶点记录下来，稍后才能通过第 k 层的顶点来找第 k+1 层的顶点
         queue.add(s);
-        int[] prev = new int[v]; // 记录搜索路径
+        int[] prev = new int[v]; // 记录搜索路径 prev[w]存储的是，顶点 w 是从哪个前驱顶点遍历过来的
         for (int i = 0; i < v; i++) {
-            prev[i] = -1;
+            prev[i] = UNVISITED;
         }
         // -------------------------------------//
         while (queue.size() != 0) {
@@ -84,7 +86,7 @@ public class Graph {
         boolean[] visited = new boolean[v];
         int[] prev = new int[v];
         for (int i = 0; i < v; i++) {
-            prev[i] = -1;
+            prev[i] = UNVISITED;
         }
         //=============================
         this.recurDfs(s, t, visited, prev);
@@ -117,7 +119,7 @@ public class Graph {
      * @param t
      */
     private void print(int[] prev, int s, int t) {
-        if (prev[t] != -1 && t != s) {
+        if (prev[t] != UNVISITED && t != s) {
             print(prev, s,  prev[t]);
         }
         System.out.println(t + " ");

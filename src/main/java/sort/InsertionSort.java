@@ -13,19 +13,19 @@ public class InsertionSort {
      * @param a
      */
     public void sort(int[] a) {
-        if (a.length <= 1) return;
-
-        for (int i = 1; i < a.length; i++) {
-            int value = a[i];
+        if (a.length <=1) return;
+        for (int i=1; i < a.length; i++) {
+            int value = a[i]; //需要插入的元素
             int j = i - 1;
-            for (;j>=0;j--) {
+            //查找插入点，
+            for(;j>=0;j--) { //从后往前比较
                 if (a[j] > value) {
-                    a[j+1] = a [j];
+                    a[j+1] = a[j]; // 如果已排序组中的元素大于要插入的元素的值，就将这个元素向后挪动一位。
                 }else {
                     break;
                 }
             }
-            a[j+1] = value;
+            a[j+1] = value; // 插入点是j+1
         }
     }
 

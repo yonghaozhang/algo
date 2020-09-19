@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
  * @description
  */
 @Slf4j
-public class InsertionSortTest {
+public class InsertionISortTest {
 
     @Test
     public void testSort() throws Exception {

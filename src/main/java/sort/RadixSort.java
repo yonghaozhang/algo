@@ -8,7 +8,7 @@ package sort;
  */
 public class RadixSort {
 
-    public static void radixSort(int arr[]) {
+    public void radixSort(int arr[]) {
         int max = arr[0];
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > max) {

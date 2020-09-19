@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
  * @description
  */
 @Slf4j
-public class BubbleSortTest {
+public class BubbleISortTest {
 
     @Test
     public void testSortAsASC() throws Exception {

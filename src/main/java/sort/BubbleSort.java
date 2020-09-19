@@ -9,17 +9,18 @@ package sort;
 public class BubbleSort {
 
     public void sortAsASC(int[] a) {
+        if (a.length <= 1) return;
         for (int i = 0; i < a.length; i++) {
-            boolean flag = true;
+            boolean sorted = true; // 如果某一次冒泡，发现数据都在合适位置上，表示所有数据都已经排序好了，则不需要再排序
             for (int j = 0; j < a.length - 1 - i; j++) {
                 if (a[j+1] < a[j]) {
                     int tmp = a[j];
                     a[j] = a[j+1];
                     a[j+1] = tmp;
-                    flag = false;
+                    sorted = false;
                 }
             }
-            if (flag) break;
+            if (sorted) break;
         }
     }
 
