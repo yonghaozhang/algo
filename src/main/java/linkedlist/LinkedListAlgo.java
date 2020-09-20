@@ -21,10 +21,11 @@ public class LinkedListAlgo {
      */
     public Node reverse(Node list) {
         Node pre = null;
-        Node curr = list;
+        Node curr = list; //// 正序链表某个节点的前驱节点
         while (curr != null) {
-            Node next = curr.next; // 记下next 指针
-            curr.next = pre; // next 指针指向前一个节点
+            //先把当前节点的下个节点记录下来, 将next和pre节点换位
+            Node next = curr.next; //先把当前节点的下个节点记录下来, 将next和pre节点换位
+            curr.next = pre;
             pre = curr; // 前一个节点 指向当前节点
             curr = next; // 当前节点指向下一个节点
         }
@@ -58,7 +59,7 @@ public class LinkedListAlgo {
     public Node deleteLastKthNode(Node list, int k) {
         Node fast = list;
         int i = 1;
-        // 快指针先移动k位
+        // 快指针先移动k-1位
         while (fast != null && i < k) {
             fast = fast.next;
             i++;

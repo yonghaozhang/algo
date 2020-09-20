@@ -26,10 +26,10 @@ public class BucketSort implements ISort {
         int[] indexArr =new int[bucketCount]; // indexArr[i] 标识第i个桶内能放几个元素。
         for(int i = 0; i < a.length; i++) {
             int bucketIndex = (a[i] - min) / bucketSize; // bucketIndex标识那个桶
-            if (indexArr[bucketIndex] == buckets[bucketIndex].length) {
-                // 扩容
-                ensureCapacity(buckets, bucketIndex);
-            }
+//            if (indexArr[bucketIndex] == buckets[bucketIndex].length) {
+//                // 扩容
+//                ensureCapacity(buckets, bucketIndex);
+//            }
             buckets[bucketIndex][indexArr[bucketIndex]++] = a[i];
         }
 

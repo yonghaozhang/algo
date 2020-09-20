@@ -16,6 +16,7 @@ public class BinarySearch {
      * @return 查找元素的下标
      */
     public int bSearch(int[] a, int n, int value) {
+        //设置二分查找范围
         int low = 0;
         int high = n - 1;
 

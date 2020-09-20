@@ -1,7 +1,6 @@
 package tree;
 
 import org.junit.Test;
-import search.BinarySearch2;
 
 import static org.junit.Assert.*;
 

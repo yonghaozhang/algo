@@ -43,9 +43,11 @@ public class SkipList {
      * @param value
      */
     public void insert(int value) {
+        // 索引层数
         int level = randomLevel();
         Node  newNode = new Node();
         newNode.data = value;
+        // 构建要插入的节点
         newNode.maxLevel = level;
         Node[] update = new Node[level];
         for (int i = 0; i < level; i++) {
@@ -53,7 +55,7 @@ public class SkipList {
         }
 
         Node p = head;
-        // 找到离要插入值 最近的左边的那个节点
+        //找到每一层最小的那个大于插入元素的的元素，放入update[i]
         for (int i = level -1; i >=0; --i) {
             while (p.forwards[i] != null && p.forwards[i].data < value) {
                 p = p.forwards[i];
@@ -61,8 +63,7 @@ public class SkipList {
             update[i] = p;
         }
 
-
-        // 将要插入的值插入到update[i] 和 update[i].forward[i] 之间
+        // 上面找到的元素成为新节点的forward 元素。
         for (int i = 0; i < level; i++) {
             newNode.forwards[i] = update[i].forwards[i];
             update[i].forwards[i] = newNode;
@@ -114,7 +115,9 @@ public class SkipList {
 
     public class Node {
         private int data = -1; // 节点值
-        private Node[] forwards = new Node[MAX_LEVEL]; // forwards[i] 当前Node节点在 第 i 个索引层 后面的第一个节点。
+        private Node[] forwards = new Node[MAX_LEVEL]; // 当前节点在各个索引层的查询路径经过的节点的集合(每一层最大的那个小于插入元素的的元素)。
+                                                       // 比如Node[0] 表示在原始层。
+                                                       // Node[1] 表示在第一层索引层。
         private int maxLevel = 0;
 
         @Override

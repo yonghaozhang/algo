@@ -15,6 +15,12 @@ public class BinarySearchTree {
      * @return
      */
     public Node find(int data) {
+
+        //如果当前节点==要查找的值，返回
+        // 如果要查找的值v<当前节点，在左子树中递归
+        // 如果当前节点>当前节点在右子树中递归，
+        //知道当前节点为空，停止递归
+
         Node p = tree;
         while (p != null) {
             if (data < p.data) p = p.left;
@@ -30,6 +36,11 @@ public class BinarySearchTree {
      * @param data
      */
     public void insert(int data) {
+        // 如果根节点为空，value放到根节点上
+        // 如果value < 根节点，并且左子树为空，直接放到左子树上
+        // 如果value < 根节点，并且左子树不为空，递归左子树，找到空的位置放上value
+        // 如果value > 根节点，并且右子树为空，直接放到右子树上
+        // 如果value < 根节点，并且右子树不为空，递归右子树，找到空的位置放上value
         if (tree == null) {
             tree = new Node(data);
             return;
@@ -92,7 +103,7 @@ public class BinarySearchTree {
     }
 
 
-    public class Node {
+    public static class Node {
         private int data;
         private Node left;
         private Node right;
@@ -101,5 +112,38 @@ public class BinarySearchTree {
             this.data = data;
         }
     }
+
+//    /**
+//     * 前序遍历伪代码
+//     * @param root
+//     */
+//    void preOrder(Node root) {
+//        if (root == null) return;
+//        print root;
+//        preOrder(root.left);
+//        preOrder(root.right);
+//    }
+
+//    /**
+//     * 中序遍历伪代码
+//     * @param root
+//     */
+//    void preOrder(Node root) {
+//        if (root == null) return;
+//        preOrder(root.left);
+//        print root;
+//        preOrder(root.right);
+//    }
+//
+//    /**
+//     * 后序遍历伪代码
+//     * @param root
+//     */
+//    void preOrder(Node root) {
+//        if (root == null) return;
+//        preOrder(root.left);
+//        preOrder(root.right);
+//        print root;
+//    }
 
 }

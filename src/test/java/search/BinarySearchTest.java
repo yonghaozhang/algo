@@ -15,13 +15,6 @@ public class BinarySearchTest {
 
         int v = binarySearch.bSearchRecursion(arr, arr.length, 4);
         log.info(v + "");
-
-        BinarySearch2 binarySearch2 = new BinarySearch2();
-        int value2 = binarySearch2.binarySearch(arr, arr.length, 4);
-        log.info(value2 + "");
-
-        int v2 = binarySearch2.bSRecursion(arr, arr.length, 4);
-        log.info(v2 + "");
     }
 
     @Test
@@ -46,33 +39,30 @@ public class BinarySearchTest {
         int index = binarySearch.bSearch1(arr, 7, 4);
         log.info(index + "");
 
-        BinarySearch2 binarySearch2 = new BinarySearch2();
-        int index2 = binarySearch2.binarySearchFirstEquals(arr, 7, 4);
-        log.info(index2 + "");
     }
 
     @Test
     public void binarySearchLastElement() throws Exception {
         int[] arr = new int[]{1,2,3,4,4,6,7};
-        BinarySearch2 binarySearch2 = new BinarySearch2();
-        int index2 = binarySearch2.binarySearchLastEquals(arr, 7, 4);
-        log.info(index2 + "");
+//        BinarySearch2 binarySearch2 = new BinarySearch2();
+//        int index2 = binarySearch2.binarySearchLastEquals(arr, 7, 4);
+//        log.info(index2 + "");
     }
 
     @Test
     public void binarySearchFirstLargeThan() throws Exception {
         int[] arr = new int[]{1,2,3,4,4,6,7};
-        BinarySearch2 binarySearch2 = new BinarySearch2();
-        int x = binarySearch2.binarySearchFirstLargeEquals(arr, 7, 4);
-        log.info(x + "");
+//        BinarySearch2 binarySearch2 = new BinarySearch2();
+//        int x = binarySearch2.binarySearchFirstLargeEquals(arr, 7, 4);
+//        log.info(x + "");
     }
 
     @Test
     public void binarySearchLastLessThan() throws Exception {
         int[] arr = new int[]{1,2,3,4,4,6,7};
-        BinarySearch2 binarySearch2 = new BinarySearch2();
-        int x  = binarySearch2.binarySearchLastLessThan(arr, 7, 4);
-        log.info(x + "");
+//        BinarySearch2 binarySearch2 = new BinarySearch2();
+//        int x  = binarySearch2.binarySearchLastLessThan(arr, 7, 4);
+//        log.info(x + "");
     }
 
 

@@ -19,9 +19,6 @@ public class BucketISortTest {
         bucketSort.sort(a);
         log.info(Arrays.toString(a));
 
-        BucketSort2 bucketSort2 = new BucketSort2();
-        bucketSort2.sort(a);
-        log.info(Arrays.toString(a));
 
     }
 }
