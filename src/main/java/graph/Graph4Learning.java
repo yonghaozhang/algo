@@ -24,72 +24,38 @@ public class Graph4Learning {
 
     }
 
-    public void bfs(int s, int t) {
-        if (s == t) return;
-        //初始化
+    void bfs(int s, int t) {
+        // 初始化 boolean[] visited, queue, int[] pre;
+        // 从queue中取出一个元素w，循环w的邻接表内元素，
+            // 如果元素q还没有访问到，记录下prev[q]=v;
+                //  如果元素==t, 完成查找，打印出顺讯，
+                //  如果元素!=t, visited[q]=true, queue.add().,
+        //  直到queue没有元素为止
         boolean[] visited = new boolean[v];
+        Queue<Integer> queue = new LinkedList();
+        int[] prev = new int[v];
         visited[s] = true;
-        Queue<Integer> queue = new LinkedList<Integer>();
-        queue.add(s);
-        int[] prev = new int[v];
-        for (int i=0; i<v; i++ ){
-            prev[i] = UNVISITED;
+        for (int i=0;i<v;i++) {
+            prev[i] = -1;
         }
 
-        while (queue.size()!=0) {
-           Integer w = queue.poll();
-           for (int i=0; i< adj[w].size(); i++) {
-               int q = adj[w].get(i);
-               if (!visited[q]) {
-                   prev[q] = w;
-                   if (q == t) {
-                       this.print(prev, s, t);
-                       return;
-                   }else {
-                       visited[q] = true;
-                       queue.add(q);
-
-                   }
-               }
-           }
-        }
-
-    }
-
-
-    public void dfs(int s, int t) {
-        int[] prev = new int[v];
-        boolean[] visit = new boolean[v];
-        for (int i=0; i<v; i++) {
-            prev[i] = UNVISITED;
-        }
-
-
-
-    }
-
-
-    private void recDfs(int w, int t, boolean[] visited, int[] prev) {
-        if (found) return;
-        visited[w] = true;
-        if (w == t) {
-            found = true;
-            return;
-        }
-        for (int i=0; i<adj[w].size(); i++) {
-            int q = adj[w].get(i);
-            if (!visited[q]) {
-                prev[q] = w;
-                recDfs(q, t, visited, prev);
+        Integer w = queue.poll();
+        while (queue.size() != 0) {
+            for (int i=0; i<adj[w].size(); i++) {
+                int q = adj[w].get(i);
+                if (!visited[q]) {
+                    prev[q] = w;
+                    if (q == t) {
+                        //print
+                        return;
+                    }
+                    visited[q] = true;
+                    queue.add(q);
+                }
             }
         }
     }
 
-    private void print(int[] prev, int s, int t) {
-        if (prev[t]!=UNVISITED && t!=s) {
-            print(prev, s, prev[t]);
-        }
-        System.out.print(t + " ");
-    }
+
 
 }

@@ -86,7 +86,7 @@ public class Heap {
         a[index1] = a[index2];
         a[index2] = tmp;
     }
-
+e
     private void buildHeap(int[] a, int n) {
         for (int i = n/2; i >= 1; --i) { //我们对下标从 n/2​ 开始到 1 的数据进行堆化，下标是 n/2​+1 到 n 的节点是叶子节点，我们不需要堆化
             heapify(a, n, i);

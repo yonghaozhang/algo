@@ -21,8 +21,10 @@ public class LinkedListAlgo {
      */
     public Node reverse(Node list) {
         Node pre = null;
-        Node curr = list; //// 正序链表某个节点的前驱节点
+        Node curr = list; // 正序链表某个节点的前驱节点
         while (curr != null) {
+            //让当前节点(curr)的下一个节点指向前驱节点(prev), 然后把pre指向当前节点，当前节点的指向next.
+
             //先把当前节点的下个节点记录下来, 将next和pre节点换位
             Node next = curr.next; //先把当前节点的下个节点记录下来, 将next和pre节点换位
             curr.next = pre;
@@ -34,7 +36,7 @@ public class LinkedListAlgo {
 
 
     /**
-     * 通过快慢指针，慢指针每次一步，快指针每次2步，链表中是否有环。
+     * 通过快慢指针，慢指针每次一步，快指针每次2步，(1)当快指针为空或者快指针下一个节点为空时，表示链表没有换， 在(1)情况出现前快慢指针相遇时，表示链表中是否有环。
      * @param list
      * @return
      */

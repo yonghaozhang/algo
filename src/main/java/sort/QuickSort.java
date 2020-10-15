@@ -32,7 +32,7 @@ public class QuickSort implements ISort {
         for(int j = p; j < r; ++j) { // 不用 <=
             if (a[j] < pivotValue) {
 //                if (pivotIndex == j) {
-//                    ++pivotIndex; //如果当前元素正好在分区点上，不用交换分区点和这个元素的位置，这不是优化，可以省略
+//                    ++pivotIndex; //如果当前元素正好在分区点上，不用交换分区点和这个元素的位置，这步是优化，可以省略
 //                } else {
                     int tmp = a[pivotIndex];
                     a[pivotIndex++] = a[j];
